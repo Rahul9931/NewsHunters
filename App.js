@@ -1,4 +1,5 @@
 import { StatusBar } from 'expo-status-bar'
+import {React} from 'react'
 import { SafeAreaView, StyleSheet, Text, View} from 'react-native'
 import Home from './App/Screen/Home';
 import { NavigationContainer } from '@react-navigation/native';
@@ -11,7 +12,9 @@ export default function App() {
   return (
     <SafeAreaView style={styles.container}>
       <NavigationContainer>
+        <View style={{flex:1, backgroundColor:'white', padding:15, marginTop:10}}>
         <HomeNavigator/>
+        </View>
       </NavigationContainer>
     </SafeAreaView>
   );
@@ -20,5 +23,6 @@ export default function App() {
 const styles = StyleSheet.create({
   container:{
     flex:1,
+    backgroundColor:'white'
   }
 })

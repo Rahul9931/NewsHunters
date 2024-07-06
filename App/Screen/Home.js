@@ -36,7 +36,7 @@ const Home = ()=>{
       };
 
     return(
-        <ScrollView showsVerticalScrollIndicator={false} style={{backgroundColor:'white',padding:10,marginTop:10}}>
+        <ScrollView showsVerticalScrollIndicator={false} style={{backgroundColor:'white'}}>
             <View style={styles.container}>
                 <Text style={styles.appName}>News Hunters</Text>
             </View>

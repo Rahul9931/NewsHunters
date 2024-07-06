@@ -5,10 +5,11 @@ import { useNavigation } from "@react-navigation/native"
 const HeadLineList = ({apiData})=>{
 
     const navigation = useNavigation()
+    const reversedData = [...apiData].reverse()
     return(
         <View style={{marginTop:10}}>
             <FlatList
-                data={apiData}
+                data={reversedData}
                 showsVerticalScrollIndicator={false}
                 renderItem={({item})=>(
                     item.urlToImage &&

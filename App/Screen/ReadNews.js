@@ -16,7 +16,7 @@ const ReadNews = ()=>{
     }
     return(
         <ScrollView showsVerticalScrollIndicator={false} style={{flex:1,backgroundColor:'white'}}>
-            <View style={{marginTop:10, display:'flex', flexDirection:'row', justifyContent:'space-between'}}>
+            <View style={{marginTop:15, display:'flex', flexDirection:'row', justifyContent:'space-between'}}>
                 <TouchableOpacity 
                     onPress={()=>navigation.goBack()}
                 >

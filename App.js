@@ -9,22 +9,16 @@ import { useEffect } from 'react';
 export default function App() {
   
   return (
-    // <View >
     <SafeAreaView style={styles.container}>
       <NavigationContainer>
         <HomeNavigator/>
       </NavigationContainer>
-      {/* <Home/> */}
     </SafeAreaView>
-    // </View>
   );
 }
 
 const styles = StyleSheet.create({
   container:{
     flex:1,
-    backgroundColor:'white',
-    padding:15,
-    marginTop:10
   }
 })

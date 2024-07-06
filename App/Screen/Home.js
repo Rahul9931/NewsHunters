@@ -35,9 +35,8 @@ const Home = ()=>{
         getNewsByCategory(category);
       };
 
-    
     return(
-        <ScrollView showsVerticalScrollIndicator={false} style={{backgroundColor:'white'}}>
+        <ScrollView showsVerticalScrollIndicator={false} style={{backgroundColor:'white',padding:10,marginTop:10}}>
             <View style={styles.container}>
                 <Text style={styles.appName}>News Hunters</Text>
             </View>
